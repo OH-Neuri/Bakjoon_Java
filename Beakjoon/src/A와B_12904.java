@@ -18,7 +18,7 @@ public class A와B_12904 {
 			}
 
 			for (int i = S1.length(); i > 0; i--) {
-				//S1 = S1.charAt(i);  수정이 필요함
+				//S1 = S1.charAt(i);    수정이 필요함 -> 배열로 접근하는게 좋을 거 같음
 			}
 			S1 += "B";
 			if (S1.equals(T)) {
